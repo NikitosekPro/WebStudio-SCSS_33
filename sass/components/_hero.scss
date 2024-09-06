@@ -1,0 +1,64 @@
+/* HERO */
+
+.hero {
+    margin-bottom: 94px;
+    height: 600px;
+    text-align: center;
+    background-image: url(../img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+
+}
+
+.overlay {
+    max-width: 1600px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    background-image: linear-gradient(to right, $overlay 100%, $overlay 100%),
+        url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero-flex {
+    height: 100%;
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: (calc(60 / 44));
+    margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    color: $main-background-color;
+    padding-top: 150px;
+}
+
+.hero-button {
+    color: $second-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(30 / 16);
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: $logo-color;
+    border: none;
+    transform: scale(1);
+    transition: transform 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+
+.hero-button:hover {
+    transform: scale(1.1);
+}

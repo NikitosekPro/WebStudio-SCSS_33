@@ -1,0 +1,101 @@
+/* INFORMATION */
+
+.information,
+.work {
+    background-color: $main-background-color;
+}
+
+.information-name {
+    color: $main-text-color;
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    margin-bottom: 10px;
+}
+
+.information-list {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 94px;
+    justify-content: center;
+}
+
+.information-item {
+    width: 270px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+.antenna::before {
+    content: " ";
+    display: block;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    background-color: $team-background-color;
+    background-image: url(../img/Antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.clock::before {
+    content: " ";
+    display: block;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    background-color: $team-background-color;
+    background-image: url(../img/Clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.computer::before {
+    content: " ";
+    display: block;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    background-color: $team-background-color;
+    background-image: url(../img/Computer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.astronaut::before {
+    content: " ";
+    display: block;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    background-color: $team-background-color;
+    background-image: url(../img/Astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.information-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.information-main {
+    color: $third-text-color;
+}
