@@ -1,3 +1,4 @@
+@import url("https: //fonts.googleapis.com/css2?family=Raleway:wght@0,100..900;1,100..900&family=Ubuntu:wght@300&display=swap");
 .container {
   width: 1230px;
   padding-left: 15px;
@@ -58,6 +59,13 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7142857143;
+}
+
+.information-name {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+  line-height: 1.1428571429;
+  margin-bottom: 10px;
 }
 
 .instagram {
@@ -423,13 +431,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.information-name {
-  color: rgb(33, 33, 33);
-  font-weight: 700;
-  line-height: 1.1428571429;
-  margin-bottom: 10px;
-}
-
 .information-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,7 +516,6 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1666666667;
-  /* margin-bottom: 50px; */
 }
 
 .work-name {
