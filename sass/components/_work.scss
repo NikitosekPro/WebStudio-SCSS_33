@@ -14,9 +14,7 @@
 
 .work-name {
     width: 366px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    @extend %name-display;
 }
 
 .work-list {

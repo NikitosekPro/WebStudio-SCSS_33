@@ -1,0 +1,12 @@
+@mixin overlay-holder() {
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+}
+
+
+@mixin name-holder() {
+    padding-top: 20px;
+        padding-bottom: 20px;
+}

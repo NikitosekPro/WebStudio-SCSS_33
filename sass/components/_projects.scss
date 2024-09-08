@@ -2,11 +2,7 @@
 
 
 .projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-
+    @include overlay-holder();
 }
 
 
@@ -73,8 +69,7 @@
 }
 
 .name-holder {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    @include name-holder;
 }
 
 .projects-caption {
